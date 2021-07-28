@@ -1,0 +1,121 @@
+body {
+  background-color: rgba(206, 224, 220, 1) ;
+}
+
+h1 {
+  color: rgba(110, 103, 95, 0.5);
+  letter-spacing: 10px;
+}
+
+h3 {
+  color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  font-weight: 500;
+  font-variant: small-caps;
+  letter-spacing: 20px;
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+  font-family: 'WindSong', cursive;
+  text-decoration: underline;
+}
+
+p {
+  color: rgba(10, 10, 10, 0.6);
+  line-height: 27px;
+  letter-spacing: 2px;
+}
+
+.spread{
+  margin: 10px;
+}
+
+.icon a {
+  color: rgba(59, 67, 65, 0.5);
+  margin: 0px auto;
+  font-size: 36px;
+}
+
+.icon a:hover {
+  background-color: rgb(134, 247, 159);
+}
+
+.container {
+  margin: 50px auto;
+  background-color: rgba(227, 237, 235, 0.5);
+  padding: 30px;
+  border-radius: 20px;
+  border-style: double;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#profile_pic {
+  margin: 20px 0px 0px 0px auto;
+  width: 150px;
+  height: inherit;
+  border-radius: 25%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#button {
+  margin: 50px auto;
+  background-color: #e1d7b3;
+  border-radius: 20px;
+  padding: 10px;
+  border-style: groove;
+}
+
+#button:hover{
+  background-color: rgb(134, 247, 159);
+}
+
+#profile {
+  margin: 20px auto;
+  border-style: groove;
+
+}
+
+#profile img:hover{
+  box-shadow: 5px 5px 10px;
+}
+
+#beer {
+  height: 75px;
+  width: 75px;
+  margin: 5px auto;
+  border-radius: 20%;
+  box-shadow: 1px 1px 5px;
+}
+
+#button a{
+  font-size: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 200px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 100px;
+  }
+}
